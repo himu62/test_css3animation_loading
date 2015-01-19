@@ -1,0 +1,24 @@
+/***************************************
+	 circleball
+***************************************/
+@-webkit-keyframes circleball {
+	from {
+		-webkit-transform: rotate(0deg);
+		opacity: 1;
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+		opacity: 1;
+	}
+}
+
+@keyframes circleball {
+	from {
+		transform: rotate(0deg);
+		opacity: 1;
+	}
+	to {
+		transform: rotate(360deg);
+		opacity: 1;
+	}
+}
